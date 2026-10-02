@@ -1,0 +1,24 @@
+# 本地依赖与临时输出
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+# Tampermonkey 导出状态可能包含个人配置或凭据
+exported-state/
+*.options.json
+*.storage.json
+.env
+.env.*
+!.env.example
+
+# 开发工具、参考材料和临时产物仅保留本地
+work/
+
+# 项目说明留在本地，仓库只保留根目录 README
+**/README.md
+!/README.md
+
+# 本地开发约定与变更记录
+/AGENTS.md
+/CHANGELOG.md
